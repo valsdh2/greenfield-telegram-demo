@@ -10,7 +10,7 @@ export default defineConfig(({ command, mode}) => {
     plugins: [
       react(),
     ],
-    base: '/bnb-telegram-demo/',
+    base: '/',
     // vite config
     define: {
       __APP_ENV__: JSON.stringify(env.APP_ENV),
